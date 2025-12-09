@@ -7,18 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.get('/health', (_req, res) => {
-  res.json({ ok: true })
-})
 
-app.get('/health/db', async (_req, res) => {
-  try {
-    await pool.query('SELECT 1')
-    res.json({ db: 'ok' })
-  } catch (e) {
-    res.status(500).json({ db: 'error' })
-  }
-})
 
 app.post('/auth/login', async (req, res) => {
   const { email, password } = req.body as { email?: string; password?: string }

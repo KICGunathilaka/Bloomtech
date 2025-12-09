@@ -21,7 +21,7 @@
 - Install dependencies: from `client/` run `npm install`
 
 ## Run (Development)
-- Start API: from `backend/` run `npm run dev` → `http://localhost:3000`
+- Start API: from `backend/` run `npm run dev` (listens on `http://localhost:3000`)
 - Start frontend: from `client/` run `npm run dev` → `http://localhost:5173`
 
 ## Login Flow
@@ -32,4 +32,3 @@
 - Port in use (`EADDRINUSE`): stop duplicate dev servers; keep one backend on `3000` and one frontend on `5173`.
 - DB errors: verify PostgreSQL is running and `.env` values are correct.
 - CORS: API enables `cors()` for local dev; frontend calls `http://localhost:3000`.
-

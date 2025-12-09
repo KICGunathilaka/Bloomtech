@@ -55,7 +55,7 @@ export default function Login({ onLoggedIn }: { onLoggedIn?: (user: { id: number
 
   return (
     <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg)', overflow: 'hidden' }}>
-      <form onSubmit={onSubmit} style={{ width: 'min(520px, 92vw)', padding: 32, borderRadius: 16, background: '#fff', color: '#111', border: '1px solid var(--primary)', boxShadow: '0 12px 24px rgba(0,0,0,0.2)' }}>
+      <form onSubmit={onSubmit} style={{ width: 'min(520px, 92vw)', padding: 32, borderRadius: 16, background: '#063062', color: '#111', border: '1px solid var(--primary)', boxShadow: '0 12px 24px rgba(0,0,0,0.2)' }}>
         <h1 style={{ margin: 0, marginBottom: 20, fontSize: 28 }}>Login</h1>
         <div style={{ display: 'grid', gap: 12 }}>
           <label style={{ display: 'grid', gap: 8 }}>

@@ -21,7 +21,7 @@
   - Password: `admin123`
 
 ## Run (Development)
-- Start API: from `backend/` run `npm run dev` → `http://localhost:3000`
+- Start API: from `backend/` run `npm run dev` (listens on `http://localhost:3000`)
 - Start frontend: from `client/` run `npm run dev` → `http://localhost:5173`
 
 ## Troubleshooting
